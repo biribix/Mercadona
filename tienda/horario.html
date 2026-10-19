@@ -4,16 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Horario</title>
+    <link rel="icon" href="../imgs/mini/mercadona-icon.png">
 </head>
 <body style="padding-left: 40px; padding-right: 40px; background-color: mediumseagreen; color: beige; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
     <table cellpadding="10px">
         <thead>
             <th>Navega por nuestra web:</th>
             <th><a href="../index.html">Inicio</a></th>
-            <th><a href="catalogo.html">Productos</a></th>
+            <th><a href="catalogo.html">Catalogo</a></th>
             <th style="background-color: beige; border: 1px black solid; border-radius: 35px;"><a href="horario.html">Horario</a></th>
             <th><a href="contacto.html">Contactanos</a></th>
         </thead>
     </table>
+
+    <hr width="100%">
+    <h1 style="text-align: center; font-size: 85px; margin-top: -10px; margin-bottom: 10px;">Horario del supermercado</h1>
+    <hr width="100%">
+
+    <table border="1" cellpadding="10" cellspacing="0" height="500px" style="text-align: center; margin-top: 30px; width: 100%;>
+        <thead style="background-color: steelblue; color: black;">
+          <tr>
+            <th>Hora</th>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miércoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+            <th>Sábado</th>
+            <th>Domingo</th>
+          </tr>
+        </thead>
+        <tbody style="">
+          <!-- Tramo de madrugada -->
+          <tr>
+            <th style="background-color: gainsboro; color: black;">00:00 - 09:00</th>
+            <td colspan="7" style="background-color: darkred;">Cerrado</td>
+          </tr>
+          <!-- Tramo comercial -->
+          <tr>
+            <th style="background-color: ghostwhite; color: black;">09:00 - 21:30</th>
+            <td colspan="6">Abierto</td>
+            <td style="background-color: darkred;">Cerrado</td>
+          </tr>
+          <!-- Tramo nocturno -->
+          <tr>
+            <th style="background-color: gainsboro; color: black;">21:30 - 24:00</th>
+            <td colspan="7" style="background-color: darkred;">Cerrado</td>
+          </tr>
+        </tbody>
+      </table>
+      <dd>NOTA: Este horario puede variar en los días festivos, consultar el <a href="https://info.mercadona.es/es/atencion-al-cliente/preguntas-frecuentes/apertura-en-festivos/faq" target="_blank">calendario de fesitividades</a>.</dd>
+      <footer><p>&copy; 2026 Mercadona. Ningun derecho reservado.</p></footer>
 </body>
 </html>
